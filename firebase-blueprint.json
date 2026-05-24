@@ -1,0 +1,24 @@
+{
+  "entities": {
+    "Link": {
+      "title": "Link",
+      "description": "A link added by a user",
+      "type": "object",
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "title": { "type": "string" },
+        "iconName": { "type": "string" },
+        "clicks": { "type": "integer" },
+        "ownerId": { "type": "string" },
+        "createdAt": { "type": "integer" }
+      },
+      "required": ["url", "title", "iconName", "clicks", "ownerId", "createdAt"]
+    }
+  },
+  "firestore": {
+    "links/{linkId}": {
+      "schema": { "$ref": "#/entities/Link" },
+      "description": "Global collection of all links"
+    }
+  }
+}

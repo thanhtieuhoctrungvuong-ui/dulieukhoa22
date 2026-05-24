@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  height: 100vh;
+  @apply bg-gradient-to-br from-[#0f172a] via-[#1e1b4b] to-[#312e81] text-white font-sans overflow-auto selection:bg-indigo-500/30;
+}
+
+#root {
+  height: 100%;
+}

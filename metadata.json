@@ -1,0 +1,6 @@
+{
+  "name": "Chia se tai lieu",
+  "description": "App quản lý và chia sẻ liên kết tài liệu với biểu tượng, tích hợp thống kê truy cập thời gian thực trên Firebase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
